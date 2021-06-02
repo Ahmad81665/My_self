@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+    {% extends "basic_app/base.html" %}
+        {% block body_block %}    
+        {% load staticfiles %}
+
+                 
+        
+
+        <div class="container-fluid " id="myc" >
+             <h1>portfolio</h1>
+             <h3>About me:</h3> 
+             <div class="row">
+               
+              <div class="col-sm-3">
+                <img class="card-img-top rounded " src="{%static 'images/Ahmad2.jpg'%}" alt="Card image">
+              </div>
+              
+              <div class="col-sm-8">
+                <h4 class="card-title ">Ahmad Barho</h4>
+                <p class="card-text"><li>business man</li> <li>programmer</li>  </p>                
+              </div>
+            </div><br>           
+              <div class="row">
+                <p>I'm a nice fun and friendly person, I'm honest and punctual,
+                     I work well in a team but also on my own as I like to set myself goals which I will achieve,
+                      I have good listening and communication skills. <br>
+                     I have a creative mind and am always up for new challenges.</p>
+               
+               
+              </div>
+          </div>
+
+          </div>
+
+
+
+        
+        
+        {% endblock %}     
